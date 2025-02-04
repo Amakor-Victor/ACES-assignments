@@ -7,7 +7,11 @@ let movies = [
 
 ]
 
+for(i = 0;i<movies.length;i++){
+    console.log(movies[i][1].title);
+}
 
+movies.splice(2,1);
 
 for(i = 0;i<movies.length;i++){
     console.log(movies[i][1].title);
